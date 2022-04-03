@@ -3,12 +3,12 @@ import Banner from "./components/Banner";
 import Fotter from "./components/Fotter";
 import AboutUs from "./pages/AboutUs";
 import Explore from "./pages/Explore";
-import { ReactComponent as ReactLogo } from "./static/images/Vector.svg";
+import heroBorder from "./static/images/Vector.png";
 function App() {
   return (
     <div className="App">
       <Banner />
-      <ReactLogo className="hero-vector" />
+      <img src={heroBorder} className="hero-vector" alt="border" />
       <Explore />
       <AboutUs />
       <Fotter />

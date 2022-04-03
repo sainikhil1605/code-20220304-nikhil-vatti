@@ -39,8 +39,9 @@
 
 .hero-vector {
   position: absolute;
-  top: 660px;
+  top: 606px;
   left: 0px;
+  width:100%;
   max-width: 100%;
 }
 @media (max-width: 900px) {
