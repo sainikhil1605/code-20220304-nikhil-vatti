@@ -1,11 +1,11 @@
-import Card from './Card';
-import './Explore.css';
-import exploreImage1 from './static/images/explore-image-1.png';
-import exploreImage2 from './static/images/explore-image-2.png';
+import Card from "../../components/Card";
+import exploreImage1 from "../../static/images/explore-image-1.png";
+import exploreImage2 from "../../static/images/explore-image-2.png";
+import "./Explore.css";
 
 function Explore() {
   return (
-    <div className="explore-container" id="explore">
+    <div className="main-container" id="explore">
       <div className="heading-container">
         <p className="heading">Explore</p>
         <div className="sub-heading">

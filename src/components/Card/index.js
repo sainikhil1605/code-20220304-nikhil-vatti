@@ -1,3 +1,4 @@
+import "./Card.css";
 function Card({ img, children }) {
   return (
     <div className="card-container">

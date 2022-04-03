@@ -1,0 +1,23 @@
+.main-heading {
+  font-size: 24px;
+}
+
+.aboutus-body-container .card-container{
+  max-width: 400px;
+
+}
+.aboutus-body-container .card-content{
+  max-width: 350px;
+}
+.aboutus-body-container{
+  display: flex;
+  margin-top: 52px;
+  flex-wrap: wrap;
+}
+@media (max-width: 900px) {
+  .aboutus-body-container .card-content{
+    max-width: 85%;
+  }
+
+ 
+}

@@ -1,0 +1,33 @@
+.card-container {
+    margin-right: 30px;
+}
+.card-container img {
+    max-width: 95vw;
+  }
+  .card-content {
+    background: linear-gradient(
+      94.33deg,
+      rgba(255, 255, 255, 0.6) 3.19%,
+      rgba(255, 255, 255, 0.1) 99.26%
+    );
+    backdrop-filter: blur(10px);
+    position: relative;
+    border-radius: 15px;
+    top: -50px;
+    left: 26px;
+    max-width: 85%;
+    display: flex;
+  }
+  @media (max-width: 900px) {
+ 
+    .card-content {
+    flex-direction: column;
+    align-items: center;
+    }
+    .card-container {
+      margin-right: 0px;
+    }
+
+   
+  }
+  
