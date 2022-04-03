@@ -21,10 +21,10 @@ const Fotter = () => {
         <div className="fotter-content-right">
           <div className="fotter-content-right-list">
             <div className="fotter-content-right-list-item">
-              <a href="#">Explore</a>
+              <a href="#explore">Explore</a>
             </div>
             <div className="fotter-content-right-list-item">
-              <a href="#">About us</a>
+              <a href="#aboutus">About us</a>
             </div>
             <div className="fotter-content-right-list-item">
               <a href="#">Cities</a>
